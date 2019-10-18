@@ -1,9 +1,11 @@
+﻿﻿
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
+
         * {
             box-sizing: border-box;
         }
@@ -97,35 +99,35 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
-    $('.redirect').click(function () {
-        var header = 'Pending'
-        var pb1 = 'Pending'
-        var pb2 = 'Pending'
-        var pb3 = 'Pending'
-        var selection = $(this).attr('id')
-        if (selection == "button1") {
-            header = 'Biking'
-            pb1 = 'I started biking when I was young and only around 3 years ago is when I started to get super interested in biking mostly because of my friends, The first chapter of my biking experience was spent learning bmx with 3 of my friends it was a lot of fun because none of us had any expirience with bmx so I always had competion so we spent around 3 years riding bmx and we got pretty advanced then we started riding around 10-20 miles a day and that was hard with bmx bikes so I bought a bigger bike.'
-            pb2 = 'The second chapter of my biking experience is about big bikes, 'j
-            pb3 = 'nbhq nbichbop1   '
-        }
-        if (selection == "button2") {
-            header = 'Dirtbike riding'
-            pb1 = '2b1'
-            pb2 = '2b2'
-            pb3 = '2b3'
-        }
-        if (selection == "button3") {
-            header = 'Shooting'
-            pb1 = '3b1'
-            pb2 = '3b2'
-            pb3 = '3b3'
-        }
-        $('#header').text(header)
-        $('#pb1').text(pb1)
-        $('#pb2').text(pb2)
-        $('#pb3').text(pb3)
-    })
+        $('.redirect').click(function () {
+            var header = 'Pending'
+            var pb1 = 'Pending'
+            var pb2 = 'Pending'
+            var pb3 = 'Pending'
+            var selection = $(this).attr('id')
+            if (selection == "button1") {
+                header = 'Biking'
+                pb1 = 'I started biking when I was young and only around 3 years ago is when I started to get super interested in biking mostly because of my friends, The first chapter of my biking experience was spent learning bmx with 3 of my friends it was a lot of fun because none of us had any expirience with bmx so I always had competion so we spent around 3 years riding bmx and we got pretty advanced then we started riding around 10-20 miles a day and that was hard with bmx bikes so I bought a bigger bike.'
+                pb2 = 'The second chapter of my biking experience is about Big bikes, I bought an Se om-duro because it was a good deal, but it got a little boring using it just for commuting so I started learning how to do wheelies, then I started buying more and more bikes and I finally decided to purchase a mountain bike so I could experience more and diffent types of biking.'
+                pb3 = 'The third chaper of my biking experience is about mountain bikes, the main reason I got into mountain biking is because my neighborhood friends all rode mountain bikes and I wanted to hangout with them more so I chose to buy a mounrtain bike, I havent really got into it yet but hopefully I do one day.'
+            }
+            if (selection == "button2") {
+                header = 'Dirtbike riding'
+                pb1 = 'I started riding dirtbikes when I was about 4 years old to 7 years old was my first bikes and they were electric topping out at about 15mph, not very fast but when I was a kid I was just having fun not a care in the world then when I was about 10 years old I got my first real bike'
+                pb2 = 'I got my first real bike when I was 10 years old, my first real bike was a 2013 klx 110 that I only had for about 2 years before realizing I wasnt super interest in riding dirtbikes but I quickly realized I missed riding dirtbikes so I purchased a 2015 yz250f'
+                pb3 = 'when I was 13 I bought a yamaha yz250f and i waited a couple months to change suspension and a couple other things so I could actually fit on it and be able to control it safely without falling off or crashing. '
+            }
+            if (selection == "button3") {
+                header = 'Shooting'
+                pb1 = '3b1'
+                pb2 = '3b2'
+                pb3 = '3b3'
+            }
+            $('#header').text(header)
+            $('#pb1').text(pb1)
+            $('#pb2').text(pb2)
+            $('#pb3').text(pb3)
+        })
     </script>
 </body>
 </html>
